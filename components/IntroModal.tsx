@@ -46,14 +46,17 @@ const IntroModal: React.FC<IntroModalProps> = ({ onEnter }) => {
               <span className="text-xs text-red-500 mt-1">Seal The Gate</span>
             </div>
           </div>
-
+          <div className= "flex flex-col">
           <button 
             onClick={onEnter}
             className="group relative px-8 py-3 bg-transparent border-2 border-red-600 text-red-500 font-bold tracking-[0.2em] uppercase hover:bg-red-900/30 hover:text-white hover:border-red-500 transition-all duration-300 hover:shadow-[0_0_20px_rgba(255,0,0,0.6)]"
           >
             <span className="relative z-10">Enter The Upside Down</span>
           </button>
+           <span className="text-xs text-red-500 mt-4">By continuing, you allow the app to use your camera.</span>
+           </div>
         </div>
+  
       </div>
     </div>
   );
