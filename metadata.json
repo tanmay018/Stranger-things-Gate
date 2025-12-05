@@ -1,0 +1,7 @@
+{
+  "name": "Stranger Things",
+  "description": "An immersive, gesture-controlled interactive dimensional gate experience inspired by Stranger Things. Use your hand to tear open the fabric of reality.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
